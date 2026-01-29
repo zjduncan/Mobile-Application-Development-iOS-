@@ -1,0 +1,56 @@
+<svg viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sophisticated gradient background -->
+  <defs>
+    <linearGradient id="luxuryGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a1f35;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a3a52;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4af37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f4e4c1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Card base -->
+  <rect x="0" y="0" width="400" height="250" rx="12" fill="url(#luxuryGradient)" />
+  
+  <!-- Elegant gold vertical accent bar -->
+  <rect x="0" y="0" width="4" height="250" fill="url(#goldAccent)" />
+  
+  <!-- Subtle geometric pattern overlay -->
+  <line x1="0" y1="125" x2="400" y2="125" stroke="white" stroke-width="0.5" opacity="0.08" />
+  
+  <!-- University Plaza Hotel branding -->
+  <text x="35" y="55" font-family="Garamond, Georgia, serif" font-size="29" font-weight="400" fill="#d4af37" letter-spacing="4">
+    UNIVERSITY PLAZA
+  </text>
+  
+  <text x="35" y="82" font-family="Arial, sans-serif" font-size="20" font-weight="300" fill="#f5f5f0" opacity="0.95" letter-spacing="6">
+    HOTEL
+  </text>
+  
+  <!-- Refined divider line -->
+  <line x1="35" y1="100" x2="200" y2="100" stroke="#d4af37" stroke-width="1" opacity="0.4" />
+  
+  <!-- Room designation -->
+  <text x="35" y="165" font-family="Arial, sans-serif" font-size="13" font-weight="300" fill="white" opacity="0.5" letter-spacing="3">
+    ROOM NUMBER
+  </text>
+  
+  <!-- Room number - large and prominent -->
+  <text x="35" y="215" font-family="Garamond, Georgia, serif" font-size="56" font-weight="300" fill="#d4af37" letter-spacing="6">
+    1306
+  </text>
+  
+  <!-- Minimalist corner detail -->
+  <rect x="340" y="190" width="45" height="45" fill="none" stroke="#d4af37" stroke-width="1" opacity="0.15" />
+  <rect x="345" y="195" width="35" height="35" fill="none" stroke="#d4af37" stroke-width="1" opacity="0.1" />
+  
+  <!-- Bottom right guest access indicator -->
+  <text x="260" y="210" font-family="Arial, sans-serif" font-size="9" fill="white" opacity="0.35" letter-spacing="1.5">
+    GUEST ACCESS
+  </text>
+  <text x="260" y="225" font-family="Arial, sans-serif" font-size="10" fill="#d4af37" opacity="0.7" letter-spacing="0.5">
+    Zane Duncan
+  </text>
+</svg>
